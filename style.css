@@ -1,0 +1,127 @@
+body {
+  font-family: Arial;
+  color: #999999;
+  background-color: #F1F1F1;
+  text-align: center;
+  font-size:
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  overflow: auto;
+  margin-top: 3%;
+}
+
+.main-content {
+  background-color: #FFFFFF;
+  border: solid #E6E6E6 1px;
+}
+
+.content-div {
+  width: 400px;
+  float: right;
+  margin-top: 30px;
+}
+
+/* Main phones image */
+.main-img {
+  width: 400px;
+  float: left;
+}
+
+.logo-img {
+  width: 250px;
+}
+
+.text-line {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-line:after, .text-line:before {
+  content: '';
+  width: 110px;
+  height: 1px;
+  background: #EFEFEF;
+  margin: 0 10px;
+}
+
+.fb-btn {
+  font-weight: bold;
+  background-color: #3897F0;
+  color: #FAFAFA;
+  border: none;
+  border-radius: 2px;
+  width: 250px;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+.submit-btn {
+  font-weight: bold;
+  background-color: #3897F0;
+  color: #FAFAFA;
+  border: none;
+  border-radius: 2px;
+  width: 250px;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 5px;
+  width: 250px;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+}
+
+a.submit-link:link, :visited {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+a.terms:link, :visited {
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.terms:hover {
+  color: #444444;
+}
+
+a.account-link:link, :visited {
+  text-decoration: none;
+}
+
+.account {
+  background-color: #FFFFFF;
+  border: solid #E6E6E6 1px;
+  margin-top: 2px;
+}
+
+.app-link {
+
+}
+
+a.app:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  padding: 0 10px;
+}
+
+footer {
+  font-size: 0.75rem;
+  margin: 50px 0 0 100px;
+  font-weight: bold;
+}
